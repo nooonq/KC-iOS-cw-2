@@ -10,28 +10,33 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-            Color.blue.opacity(0.9)
+            LinearGradient(colors: [.black, .blue], startPoint: .top, endPoint: .center)
                 .ignoresSafeArea()
             VStack{
             HStack{
                 Image(systemName: "cube.fill")
                 Spacer()
                 Text("العاصمة")
+                    .font(Font.custom("IBMPlexSansArabic-Light", size: 20))
+
                 Spacer()
                 Image(systemName: "gearshape.fill")
             }.padding()
+                    .padding(.top,25)
                 .font(.title3)
                 .foregroundColor(.white)
                 
                 HStack{
                     Text("12:28")
-                        .font(.system(size: 80, weight: .medium, design: .serif))
+                        .font(Font.custom("IBMPlexSansArabic-Light", size: 65))
+
                         .fontWeight(.light)
                         .foregroundColor(Color.white)
                     Text("31")
                         .foregroundColor(.white)
-                        .padding(.top,35)
-                        .font(.system(size: 32, design: .serif))
+                        .padding(.top,27)
+                        .font(Font.custom("IBMPlexSansArabic-Light", size: 27))
+
                 }
                 Text("باقي على الأذان").padding(.bottom)
                     
@@ -87,10 +92,10 @@ struct ContentView: View {
                 
             }.background(.white.opacity(0.3))
                     .padding(.top)
-                    .font(.system(size: 29, design: .serif))
+                    .font(Font.custom("IBMPlexSansArabic-Light", size: 25))
                 
                 
-            }.font(.system(size: 24, design: .serif))
+            }.font(Font.custom("IBMPlexSansArabic-Light", size: 20))
             
         
                 

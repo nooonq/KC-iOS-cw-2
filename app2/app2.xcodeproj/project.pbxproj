@@ -11,6 +11,7 @@
 		055C1C3E2895533A00FC2D9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055C1C3D2895533A00FC2D9B /* ContentView.swift */; };
 		055C1C402895533D00FC2D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055C1C3F2895533D00FC2D9B /* Assets.xcassets */; };
 		055C1C432895533D00FC2D9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055C1C422895533D00FC2D9B /* Preview Assets.xcassets */; };
+		05BC388E2895E288005AA01E /* IBMPlexSansArabic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05BC388D2895E288005AA01E /* IBMPlexSansArabic-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		055C1C3D2895533A00FC2D9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		055C1C3F2895533D00FC2D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		055C1C422895533D00FC2D9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05BC388D2895E288005AA01E /* IBMPlexSansArabic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansArabic-Light.ttf"; sourceTree = "<group>"; };
+		05BC388F2895E78D005AA01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		055C1C3A2895533A00FC2D9B /* app2 */ = {
 			isa = PBXGroup;
 			children = (
+				05BC388F2895E78D005AA01E /* Info.plist */,
 				055C1C3B2895533A00FC2D9B /* app2App.swift */,
 				055C1C3D2895533A00FC2D9B /* ContentView.swift */,
+				05BC388D2895E288005AA01E /* IBMPlexSansArabic-Light.ttf */,
 				055C1C3F2895533D00FC2D9B /* Assets.xcassets */,
 				055C1C412895533D00FC2D9B /* Preview Content */,
 			);
@@ -127,6 +132,7 @@
 			files = (
 				055C1C432895533D00FC2D9B /* Preview Assets.xcassets in Resources */,
 				055C1C402895533D00FC2D9B /* Assets.xcassets in Resources */,
+				05BC388E2895E288005AA01E /* IBMPlexSansArabic-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +275,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"app2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = app2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +304,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"app2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = app2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
